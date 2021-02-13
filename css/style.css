@@ -1,0 +1,214 @@
+body{
+    font-family: 'Garamond', serif, '微軟正黑體';
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+  .sidebar a {
+    padding: 16px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidebar a:hover {
+    color: #f1f1f1;
+}
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    position: fixed;
+  }
+
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+  #sidebar_button {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+ @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+#title {
+    text-align: center;
+}
+
+#title p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+    padding: 35px;
+    background-color: #F5F5F5;
+}
+
+h2{
+    font-size: 24px;
+    padding: 35px;
+    text-shadow: 4px 4px #F5F5F5;
+}
+
+article{ /*Temporary style as i work on this*/
+    text-align: center;
+    padding: 80px;
+}
+
+article p{ /*Temporary style as i work on this*/
+    padding: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+
+figure {
+    display:inline-block;
+    padding: 15px;
+}
+
+figure img{
+    margin-left: auto;
+    margin-right: auto; /*margin-left and right to auto centers a block element horizontally*/
+    max-width: 100%; /*this maintains the aspect ratio*/
+    width: 240px;
+    height: auto;
+    align-items: center;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 14px;
+    background-color: #FFFFFF;
+}
+
+#section_two figure img{
+    border:1.5px solid #313131;
+}
+
+/*#section_two figure
+    float:left;
+
+
+#section_two p
+    float: right;
+    margin-top: 50px;
+*/
+footer{
+    text-align: center;
+    background-color: #313131;
+}
+
+
+footer p{
+    color: #FFEEEE;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight:600;
+}
+
+footer a{
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 500px;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color:#FFEEEE;
+}
+
+div.white_to_grey{
+    background-image: linear-gradient(180deg, #FFFFFF, #F5F5F5);
+}
+
+div.grey_to_pink{
+    background-image: linear-gradient(180deg, #F5F5F5, #FFEEEE);
+}
+
+div.pink_to_white{
+    background-image: linear-gradient(180deg, #FFEEEE,#FFFFFF);
+}
+
+#section_nine{
+    background-image: linear-gradient(180deg, #F5F5F5, #FFEEEE);
+}
+
+#section_one article p{
+    background-color:#FFFFFF;
+}
+
+#section_two article p{
+    background-color:#FFFFFF;
+}
+
+#section_three article p{
+    background-color:#FFFFFF;
+}
+
+#section_four article p{
+    background-color:#FFFFFF;
+}
+
+#section_five article p{
+    background-color:#FFFFFF;
+}
+
+#section_six article p{
+    background-color:#FFFFFF;
+}
+
+#section_seven article p{
+    background-color:#FFFFFF;
+    color: #313131;
+}
+
+#section_eight article p{
+    background-color:#FFFFFF;
+    color: #313131;
+}
+
+img#life_after{
+    width: 800px;
+}
+
+img#cutie{
+    width: 600px;
+}
